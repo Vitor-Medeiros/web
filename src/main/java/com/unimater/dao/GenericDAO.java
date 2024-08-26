@@ -10,5 +10,6 @@ public interface GenericDAO<T extends Entity> {
     void upsert(T  entity);
     void delete(int id);
 
+
 }
 

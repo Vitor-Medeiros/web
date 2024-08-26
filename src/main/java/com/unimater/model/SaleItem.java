@@ -19,6 +19,7 @@ public class SaleItem {
 
     public Product getProduct() {
         return product;
+
     }
 
     public int getQuantity() {

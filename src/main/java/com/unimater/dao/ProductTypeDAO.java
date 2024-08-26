@@ -16,6 +16,7 @@ public class ProductTypeDAO extends GenericDAOImpl<ProductType> implements Gener
         super(ProductType::new, connection);
         super.tableName = TABLE_NAME;
         super.columns = COLUMNS;
+
     }
 
 }

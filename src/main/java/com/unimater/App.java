@@ -25,7 +25,7 @@ public class App {
                     "jdbc:mysql://localhost:3306/your_db", "root", "root"
             );
 
-            ProductTypeDAO productTypeDAO = new ProductTypeDAO(connection);
+            ProductTypeDAO productTypeDAO = new ProductTypeDAO(connection) ;
 
             productTypeDAO.getAll().forEach(System.out::println);
             productTypeDAO.upsert(new ProductType(0, "Teste"));

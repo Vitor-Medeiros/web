@@ -11,4 +11,5 @@ public interface Entity {
     PreparedStatement prepareStatement(PreparedStatement preparedStatement) throws SQLException;
 
     int getId();
+
 }

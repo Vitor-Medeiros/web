@@ -20,6 +20,7 @@ public class ProductType implements Entity {
         this.description = description;
     }
 
+
     public ProductType() {
 
     }
