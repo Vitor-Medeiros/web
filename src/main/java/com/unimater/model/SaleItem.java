@@ -50,6 +50,7 @@ public class SaleItem implements Entity{
 
     public Product getProduct() {
         return product;
+
     }
 
     public int getQuantity() {

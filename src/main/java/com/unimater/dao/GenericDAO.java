@@ -9,4 +9,9 @@ public interface GenericDAO<T extends Entity> {
     T getById(int id);
     void upsert(T entity);
     void delete(int id);
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> web/master
 }

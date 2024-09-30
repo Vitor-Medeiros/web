@@ -22,6 +22,7 @@ public abstract class GenericDAOImpl<T extends Entity> implements GenericDAO<T> 
     public GenericDAOImpl(Supplier<T> supplier, Connection connection) {
         this.supplier = supplier;
         this.connection = connection;
+
     }
 
 

@@ -24,11 +24,15 @@ public class App {
                     "root"
             );
 
+<<<<<<< HEAD
             // Testa as tabelas
             testSaleTable(connection);
             testSaleItemTable(connection);
             testProductTypeTable(connection);
             testProductTable(connection);
+=======
+            ProductTypeDAO productTypeDAO = new ProductTypeDAO(connection) ;
+>>>>>>> web/master
 
             servidor.createContext("/helloWorld", new HelloWorldHandler());
             servidor.createContext("/productType", new ProductTypeHandler(connection));

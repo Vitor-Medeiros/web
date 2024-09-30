@@ -20,9 +20,12 @@ public class ProductType implements Entity {
         this.description = description;
     }
 
+<<<<<<< HEAD
     public ProductType(int id) {
         this.id = id;
     }
+=======
+>>>>>>> web/master
 
     public ProductType() {
 

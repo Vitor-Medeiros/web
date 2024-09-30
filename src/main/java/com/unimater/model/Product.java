@@ -65,6 +65,7 @@ public class Product implements Entity{
         this.id = id;
     }
 
+<<<<<<< HEAD
     public void setProductType(ProductType productType) {
         this.productType = productType;
     }
@@ -78,4 +79,7 @@ public class Product implements Entity{
                 ", value=" + value +
                 '}';
     }
+=======
+
+>>>>>>> web/master
 }
